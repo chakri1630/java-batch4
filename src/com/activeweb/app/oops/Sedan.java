@@ -1,4 +1,4 @@
-package com.activeweb.oops;
+package com.activeweb.app.oops;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import com.activeweb.oops.Auto;
+import com.activeweb.app.oops.Auto;
 
 public class AutoLoanInitiationService {
 

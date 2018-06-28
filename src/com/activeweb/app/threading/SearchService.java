@@ -1,4 +1,4 @@
-package com.activeweb.threading;
+package com.activeweb.app.threading;
 
 import java.util.concurrent.Callable;
 

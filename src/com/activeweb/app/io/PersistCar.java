@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import com.activeweb.oops.Car;
+import com.activeweb.app.oops.Car;
 
 public class PersistCar {
 

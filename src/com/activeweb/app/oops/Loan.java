@@ -1,4 +1,4 @@
-package com.activeweb.oops;
+package com.activeweb.app.oops;
 
 public class Loan implements Comparable<Loan> {
 

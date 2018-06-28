@@ -1,4 +1,4 @@
-package com.activeweb.oops;
+package com.activeweb.app.oops;
 
 import java.io.Serializable;
 
