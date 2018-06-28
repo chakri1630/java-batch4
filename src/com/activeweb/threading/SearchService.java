@@ -1,24 +1,24 @@
 package com.activeweb.threading;
 
-public class SearchService extends Thread implements Runnable {
+import java.util.concurrent.Callable;
+
+public class SearchService extends Thread implements Callable<String> {
 
 	private Integer i = 20;
-	
-	public SearchService(String threadName) {
-		super(threadName);
-	}
-	
-	public synchronized void search() {
-		System.out.println("Search logic is running" + i + getName());
-		i++;
-		System.out.println("Search logic is running" + i + getName());
 
+	public SearchService() {
+	}
+
+	public synchronized String search() {
+		i++;
+		return "10";
 	}
 
 	@Override
-	public void run() {
-
-		search();
+	public String call() throws Exception {
+		return search();
 	}
+
+	
 
 }
