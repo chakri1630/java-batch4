@@ -3,7 +3,7 @@ package com.activeweb.app.oops;
 public class Loan implements Comparable<Loan> {
 
 	String name;
-	String make;
+	public String make;
 	String model;
 	Integer loanAmount;
 	String social;
